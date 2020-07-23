@@ -11,4 +11,5 @@ Pod::Spec.new do |spec|
 
   spec.frameworks = 'AppKit', 'Carbon'
   spec.source_files = 'Sources/HotKey/**/*.{h,m,swift}'
+  spec.swift_version = '5'
 end
